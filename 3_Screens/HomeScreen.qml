@@ -141,7 +141,7 @@ Item {
                  anchors{
                      topMargin: 5
                      bottomMargin: 5
-                     leftMargin: 5 //parent.width*0.5//0.62
+                     leftMargin: parent.width*0.58 //parent.width*0.5//0.62
                      rightMargin: 5
                  }
                  MyGauge{

@@ -16,13 +16,14 @@ ApplicationWindow {
     width: 475
     height: 260
     visibility: "FullScreen"
-    title: qsTr("Smart Home")
+    title: qsTr("Smart Home v"+version)
 
     property var waterTankObj: WaterTank
     property var aquariumObj: Aquarium
 
     //  application settings
     property bool logEnable: true
+    readonly property string version:'1.1'
     readonly property var _FONT: ProjectFonts
     readonly property var _STYLES: ProjectStyles
     readonly property var _CONST: Constants

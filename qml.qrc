@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>QmlStyles.qml</file>
+        <file>qmldir</file>
+        <file>1_Library/AppSetup/Constants.qml</file>
+        <file>1_Library/AppSetup/ProjectFonts.qml</file>
+        <file>1_Library/AppSetup/ProjectStyles.qml</file>
+        <file>3_Screens/CameraScreen.qml</file>
+        <file>3_Screens/HomeScreen.qml</file>
+        <file>3_Screens/TestScreen.qml</file>
+        <file>4_Javascript/Functions.js</file>
+        <file>2_Components/MyClock.qml</file>
+        <file>2_Components/MyHeader.qml</file>
+        <file>1_Library/Objects/Aquarium.qml</file>
+        <file>1_Library/Objects/WaterTank.qml</file>
+        <file>TestArea.qml</file>
+        <file>0_Archive/Fonts/Roboto-Light.ttf</file>
+        <file>0_Archive/Fonts/digital-7.ttf</file>
+        <file>0_Archive/Fonts/digital-7 (italic).ttf</file>
+        <file>0_Archive/Fonts/digital-7 (mono italic).ttf</file>
+        <file>0_Archive/Fonts/digital-7 (mono).ttf</file>
+        <file>0_Archive/Images/camera.svg</file>
+        <file>0_Archive/Images/loading.svg</file>
+        <file>0_Archive/Media/audio.mp3</file>
+        <file>0_Archive/Scripts/RTSPStop.sh</file>
+        <file>0_Archive/Scripts/RTSPStream.sh</file>
+        <file>2_Components/MyGauge.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+module QmlStyles
+singleton QmlStyles 1.0 QmlStyles.qml
+singleton Constants 1.0 1_Library/AppSetup/Constants.qml
+singleton ProjectFonts 1.0 1_Library/AppSetup/ProjectFonts.qml
+singleton ProjectStyles 1.0 1_Library/AppSetup/ProjectStyles.qml
+
+singleton Aquarium 1.0 1_Library/Objects/Aquarium.qml
+singleton WaterTank 1.0 1_Library/Objects/WaterTank.qml

@@ -12,7 +12,7 @@ fileManager::fileManager(QObject *parent) : QObject(parent),internalProcess(new 
 
 void fileManager::logRecorder(QString dataRecord, bool active)
 {
-    qDebug()<<"log file updated!";
+    //qDebug()<<"log file updated!";
 
     if(active){
         //        QString recordMoment;

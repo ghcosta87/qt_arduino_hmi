@@ -1,10 +1,18 @@
 import QtQuick 2.0
 
 Item {
-    property string setHour: "13:50"
+    property string setHour: "13:50"    
     property var splitter: function(i){
         var input=setHour.split(':');
-        var array=[input[0],':',input[1]];
+        var array=['--',':','--']
+        if(input.length>0){
+        var firstN,secondN
+        if(input[0].length===1)firstN='0'+input[0]
+        else firstN=input[0]
+        if(input[1].length===1)secondN='0'+input[1]
+        else secondN=input[1]
+        array=[firstN,':',secondN];
+        }
         return array[i]
     }
 

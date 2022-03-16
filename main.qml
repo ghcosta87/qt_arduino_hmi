@@ -23,7 +23,7 @@ ApplicationWindow {
 
     //  application settings
     property bool logEnable: true
-    readonly property string version:'1.1'
+    readonly property string version:'1.2'
     readonly property var _FONT: ProjectFonts
     readonly property var _STYLES: ProjectStyles
     readonly property var _CONST: Constants
